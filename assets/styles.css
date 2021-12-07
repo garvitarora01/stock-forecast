@@ -85,9 +85,9 @@ body {
   background-color: rgb(190, 196, 179);
   color: rgb(0, 0, 0);
 }
-.buttons button:hover{
+/*.buttons button:hover{
   cursor: pointer;
-}
+}*/
 .header {
   display: flex;
   justify-content: flex-start;
@@ -101,7 +101,7 @@ body {
 }
 
 #logo {
-  max-width: 20em;
+  max-width: 50em;
   height: auto;
 }
 .stock-btn:hover{cursor:pointer;}
