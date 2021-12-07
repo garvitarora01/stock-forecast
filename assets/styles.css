@@ -13,7 +13,7 @@ body {
 }
 
 .nav {
-  position: fixed;
+  /*position: fixed;*/
   width: 25vw;
   height: 100%; 
   align-items: center;
