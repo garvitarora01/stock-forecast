@@ -42,6 +42,25 @@ server = app.server
 # html layout of site
 app.layout = html.Div(
     [
+        
+
+        # content
+        html.Div(
+            [
+                html.Div(
+                    [  # header
+                        html.Img(id="logo"),
+                        html.P(id="ticker")
+                    ],
+                    className="header"),
+                html.Div(id="description", className="decription_ticker"),
+                html.Div([], id="graphs-content"),
+                html.Div([], id="main-content"),
+                html.Div([], id="forecast-content")
+            ],
+            className="content"),
+        
+        #navigator
         html.Div(
             [
                 # Navigation
@@ -79,22 +98,6 @@ app.layout = html.Div(
                 # here
             ],
             className="nav"),
-
-        # content
-        html.Div(
-            [
-                html.Div(
-                    [  # header
-                        html.Img(id="logo"),
-                        html.P(id="ticker")
-                    ],
-                    className="header"),
-                html.Div(id="description", className="decription_ticker"),
-                html.Div([], id="graphs-content"),
-                html.Div([], id="main-content"),
-                html.Div([], id="forecast-content")
-            ],
-            className="content"),
     ],
     className="container")
 
