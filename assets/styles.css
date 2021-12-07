@@ -104,6 +104,12 @@ body {
   max-width: 30em;
   height: auto;
 }
-.stock-btn:hover{cursor:pointer;}
-.indicators-btn{cursor:pointer;}
-.forecast-btn{cursor:pointer;}
+.stock-btn:hover{
+  cursor:pointer;
+}
+.indicators-btn:hover{
+  cursor:pointer;
+}
+.forecast-btn:hover{
+  cursor:pointer;
+}
