@@ -62,7 +62,7 @@ body {
   flex-wrap: wrap;
   position: relative;
   justify-content: space-around;
-  cursor : pointer;
+  /*cursor : pointer;*/
 }
 
 
