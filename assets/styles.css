@@ -10,10 +10,11 @@ body {
 }
 .container {
   display: flex;
+  position: relative;
 }
 
 .nav {
-  /*position: fixed;*/
+  position: absolute;
   width: 25vw;
   height: 100%; 
   align-items: center;
@@ -40,20 +41,24 @@ body {
   color: antiquewhite;
   font-size: larger;
 }
-.form[type=text] {
+.form {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
   height: 2rem;
+  input[type=text]{
   border: 2px solid red;
   border-radius: 4px;
+  }
 }
 .form button {
   width: 5rem;
   background-color: rgb(169, 228, 200);
   color: black;
+  input[type=submit]{
   border: 2px solid black;
   border-radius: 4px;
+  }
 }
 .form button:hover{
   cursor:pointer;
