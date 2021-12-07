@@ -111,7 +111,7 @@ app.layout = html.Div(
 def update_data(n, val):  # inpur parameter(s)
     if n == None:
         #return "Hey there! Please enter a legitimate stock code to get details.", "https://melmagazine.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-31-at-5.47.12-PM.png", "Stonks", None, None, None
-        return "Hey there! Please enter a legitimate stock code to get details.", "https://raw.githubusercontent.com/Konteya/stock-dash/master/assets/25-stocks-that-can-offer-up-to-48-returns-over-12-months-according-to-stock-reports-plus.png", "Stocks Forecast", None, None, None
+        return "Hey there! Please enter a legitimate stock code to get details.", "https://github.com/Konteya/stock-forecast/blob/main/assets/25-stocks-that-can-offer-up-to-48-returns-over-12-months-according-to-stock-reports-plus.png", "Stocks Forecast", None, None, None
         
         # raise PreventUpdate
     else:
