@@ -10,11 +10,11 @@ body {
 }
 .container {
   display: flex;
-  position: relative;
+  position: absolute;
 }
 
 .nav {
-  position: absolute;
+  position: relative;
   width: 25vw;
   height: 100%; 
   align-items: center;
