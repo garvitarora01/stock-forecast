@@ -41,7 +41,7 @@ body {
   font-size: larger;
 }
 .form {
-  position: relative;
+  position: absolute;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -50,7 +50,7 @@ body {
 }
 .form button {
   width: 5rem;
-  position: relative;
+  position: absolute;
   background-color: rgb(169, 228, 200);
   color: black;
   input[type=submit]{
