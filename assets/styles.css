@@ -14,6 +14,7 @@ body {
 }
 
 .nav {
+  position: absolute;
   width: 25vw;
   height: 100%; 
   align-items: center;
@@ -41,7 +42,7 @@ body {
   font-size: larger;
 }
 .form {
-  position: absolute;
+  position: relative;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -50,7 +51,7 @@ body {
 }
 .form button {
   width: 5rem;
-  position: absolute;
+  position: relative;
   background-color: rgb(169, 228, 200);
   color: black;
   input[type=submit]{
@@ -62,6 +63,7 @@ body {
   cursor:pointer;
 }
 .buttons {
+  position: relative;
   margin: 2rem;
   width: 100%;
   display: flex;
@@ -111,7 +113,6 @@ body {
   cursor:pointer;
 }
 .indicators-btn:hover{
-  margin-top: 2rem;
   cursor:pointer;
 }
 .forecast-btn:hover{
