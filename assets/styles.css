@@ -111,6 +111,7 @@ body {
   cursor:pointer;
 }
 .indicators-btn:hover{
+  margin-top: 2rem;
   cursor:pointer;
 }
 .forecast-btn:hover{
