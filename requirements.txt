@@ -13,3 +13,5 @@ plotly==5.4.0
 scikit-learn==1.0.1
 sklearn==0.0
 yfinance==0.1.67
+fbprophet==0.7.1
+pystan==2.19.1.1
