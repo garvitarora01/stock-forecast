@@ -17,8 +17,6 @@ body {
   position: absolute;
   width: 25vw;
   height: 100%; 
-  right: 0;
-  top: 0;
   align-items: center;
   display: flex;
   justify-content: flex-start;
