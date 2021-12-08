@@ -30,6 +30,7 @@ body {
 }
 
 .start {
+  position: relative;
   margin-top: 2rem;
   margin-bottom: 5rem;
   text-align: center;
@@ -42,6 +43,7 @@ body {
   font-size: larger;
 }
 .form {
+  position: relative;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
