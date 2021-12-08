@@ -14,9 +14,11 @@ body {
 }
 
 .nav {
-  position: relative;
-  width: 25vw;
+  position: absolute;
+  width: 25%;
   height: 100%; 
+  right: 0;
+  top: 0;
   align-items: center;
   display: flex;
   justify-content: flex-start;
@@ -40,8 +42,10 @@ body {
 .input-place p {
   color: antiquewhite;
   font-size: larger;
+  position: relative;
 }
 .form {
+  position: relative;
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -53,6 +57,7 @@ body {
 }
 .form button {
   width: 5rem;
+  position: relative;
   background-color: rgb(169, 228, 200);
   color: black;
   input[type=submit]{
