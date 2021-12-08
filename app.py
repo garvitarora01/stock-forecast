@@ -90,7 +90,7 @@ app.layout = html.Div(
                                 id="indicators"),
                     dcc.Input(id="n_days",
                               type="text",
-                              placeholder="number of days"),
+                              placeholder="Enter Number of Days"),
                     html.Button(
                         "Forecast", className="forecast-btn", id="forecast")
                 ],
