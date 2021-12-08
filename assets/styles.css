@@ -42,7 +42,6 @@ body {
 .input-place p {
   color: antiquewhite;
   font-size: larger;
-  position: relative;
 }
 .form {
   position: relative;
@@ -50,10 +49,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 2rem;
   height: 2rem;
-  input[type=text]{
-  border: 2px solid red;
-  border-radius: 4px;
-  }
+  font-size: larger;
 }
 .form button {
   width: 5rem;
@@ -73,7 +69,6 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  position: relative;
   justify-content: space-around;
   /*cursor : pointer;*/
 }
